@@ -3,28 +3,34 @@
 header('Content-Type: text/html; charset=UTF-8');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+    <!--<![endif]-->
+
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if IE]>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
         <meta name="description" content="">
-        <meta name="author" content="">
-        <link href="web/css/bootstrap.min.css" rel="stylesheet">
-        <link href="web/css/font-awesome.min.css" rel="stylesheet">
-        <link href="web/css/prettyPhoto.css" rel="stylesheet">
-        <link href="web/css/price-range.css" rel="stylesheet">
-        <link href="web/css/animate.css" rel="stylesheet">
-        <link href="web/css/main.css" rel="stylesheet">
-        <link href="web/css/responsive.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="web/css/bootstrap.min.css">
+        <link rel="stylesheet" href="web/css/main.css" id="color-switcher-link">
+        <link rel="stylesheet" href="web/css/animations.css">
+        <link rel="stylesheet" href="web/css/fonts.css">
+        <script src="web/js/vendor/modernizr-2.6.2.min.js"></script>
+
         <!--[if lt IE 9]>
-        <script src="web/js/html5shiv.js"></script>
-        <script src="web/js/respond.min.js"></script>
-        <![endif]-->       
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="web/images/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="web/images/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="web/images/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="web/images/ico/apple-touch-icon-57-precomposed.png">
+                <script src="js/vendor/html5shiv.min.js"></script>
+                <script src="js/vendor/respond.min.js"></script>
+                <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <![endif]-->
 
         <?php
         /*         * *
@@ -62,65 +68,85 @@ header('Content-Type: text/html; charset=UTF-8');
     </head>
     <!--    <body>-->
 
-    <body> 
-        <?php
-        require "header.php";
-        ?>
+    <body>
+        <!--[if lt IE 9]>
+                <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+        <![endif]-->
 
-        <?php
-        require $currentPage;
-        ?>
-
-        <?php
-        require "footer.php";
-        ?>
-
-        <!-- Basic scripts -->  
-        <script src="web/js/jquery.js"></script>
-        <script src="web/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script type="text/javascript" src="js/gmaps.js"></script>
-        <script src="web/js/contact.js"></script>
-        <script src="web/js/price-range.js"></script>
-        <script src="web/js/jquery.scrollUp.min.js"></script>
-        <script src="web/js/jquery.prettyPhoto.js"></script>
-        <script src="web/js/main.js"></script>
-        <!-- End of basic scripts -->
-        <?php
-        /*         * *
-         * Specify the scripts that are to be added.
-         */
-        if ($templateResource = TemplateResource::getResource('js')) {
-            ?>
-            <!-- Additional Scripts -->
-            <?php
-            foreach ($templateResource as $js) {
-                $js = "web/$js";
-                ?>
-                <script src="<?php echo $js; ?>"></script>
+        <div class="preloader">
+            <div class="preloader_image"></div>
+        </div>
+        <!-- search modal -->
+        <div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+            <div class="widget widget_search">
+                <form method="get" class="searchform form-inline" action="/">
+                    <div class="form-group">
+                        <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+                    </div>
+                    <button type="submit" class="theme_button">Search</button>
+                </form>
+            </div>
+        </div>
+        <!-- wrappers for visual page editor and boxed version of template -->
+        <div id="canvas">
+            <div id="box_wrapper">
                 <?php
-            }
-            ?>
-            <?php
-        }
-        ?>
-        <?php if (!App::isLoggedIn()) { ?>
-            <script>
-                jQuery(document).ready(function () {
-                    App.initLogin();
-                });
-            </script>
-        <?php } else { ?>
-            <script>
-                jQuery(document).ready(function () {
-                    // initiate layout and plugins
-                    App.init();
-                    //App.setMainPage(true);
+                require "top_header.php";
+                require "header.php";
+                ?>
 
-                });
-            </script>
-            <?php
-        }
-        ?>
+                <?php
+                require $currentPage;
+                ?>
+
+                <?php
+                require "footer.php";
+                require "copyright.php";
+                ?>
+
+                <!-- Basic scripts -->  
+                <script src="web/js/compressed.js"></script>
+                <script src="web/js/main.js"></script>
+                <!-- End of basic scripts -->
+                <?php
+                /*                 * *
+                 * Specify the scripts that are to be added.
+                 */
+                if ($templateResource = TemplateResource::getResource('js')) {
+                    ?>
+                    <!-- Additional Scripts -->
+                    <?php
+                    foreach ($templateResource as $js) {
+                        $js = "web/$js";
+                        ?>
+                        <script src="<?php echo $js; ?>"></script>
+                        <?php
+                    }
+                    ?>
+                    <?php
+                }
+                ?>
+                <?php if (!App::isLoggedIn()) { ?>
+                    <script>
+                        jQuery(document).ready(function () {
+                            App.initLogin();
+                        });
+                    </script>
+                <?php } else { ?>
+                    <script>
+                        jQuery(document).ready(function () {
+                            // initiate layout and plugins
+                            App.init();
+                            //App.setMainPage(true);
+
+                        });
+                    </script>
+                    <?php
+                }
+                ?>
+            </div>
+            <!-- eof #box_wrapper -->
+        </div>
+        <!-- eof #canvas -->
     </body>
 </html>

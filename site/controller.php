@@ -28,4 +28,3 @@ else {
     require WPATH . "core/template/layout.php";
 }
 ?>
-<a href="?home"> Home</a>
