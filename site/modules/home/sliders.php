@@ -2,7 +2,7 @@
     <div class="flexslider">
         <ul class="slides">
             <li>
-                <img src="images/slide01.jpg" alt="">
+                <img src="images/slides/solar_panels.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
@@ -17,7 +17,7 @@
                                                 Clean, Safe, Renewable
                                             </p>
                                             <p class="grey fontsize_16">
-                                                Nulla eget ipsum id est accumsan pellentesque nec et odio. Duis sit amet convallis sem, tincidunt feugiat lorem. Nunc porttitor arcu ac dui aliquam efficitur.
+                                                We know the world is needs clean energy.
                                             </p>
                                             <a href="#" class="theme_button color1 topmargin_30">Discover Now</a>
                                             <div class="bottom-corners"></div>
@@ -35,7 +35,7 @@
                 <!-- eof .container -->
             </li>
             <li>
-                <img src="images/slide02.jpg" alt="">
+                <img src="images/slides/generator.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
@@ -50,7 +50,7 @@
                                                 Clean, Safe, Renewable
                                             </p>
                                             <p class="grey fontsize_16">
-                                                Nulla eget ipsum id est accumsan pellentesque nec et odio. Duis sit amet convallis sem, tincidunt feugiat lorem. Nunc porttitor arcu ac dui aliquam efficitur.
+                                                We know the world is needs clean energy.
                                             </p>
                                             <a href="#" class="theme_button color1 topmargin_30">Discover Now</a>
                                             <div class="bottom-corners"></div>
@@ -68,7 +68,7 @@
                 <!-- eof .container -->
             </li>
             <li>
-                <img src="images/slide03.jpg" alt="">
+                <img src="images/slides/backup.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
@@ -83,7 +83,7 @@
                                                 Clean, Safe, Renewable
                                             </p>
                                             <p class="grey fontsize_16">
-                                                Nulla eget ipsum id est accumsan pellentesque nec et odio. Duis sit amet convallis sem, tincidunt feugiat lorem. Nunc porttitor arcu ac dui aliquam efficitur.
+                                                We know the world is needs clean energy.
                                             </p>
                                             <a href="#" class="theme_button color1 topmargin_30">Discover Now</a>
                                             <div class="bottom-corners"></div>
@@ -101,7 +101,7 @@
                 <!-- eof .container -->
             </li>
             <li>
-                <img src="images/slide04.jpg" alt="">
+                <img src="images/slides/greenhouse.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
@@ -116,7 +116,7 @@
                                                 Clean, Safe, Renewable
                                             </p>
                                             <p class="grey fontsize_16">
-                                                Nulla eget ipsum id est accumsan pellentesque nec et odio. Duis sit amet convallis sem, tincidunt feugiat lorem. Nunc porttitor arcu ac dui aliquam efficitur.
+                                                We know the world is needs clean energy.
                                             </p>
                                             <a href="#" class="theme_button color1 topmargin_30">Discover Now</a>
                                             <div class="bottom-corners"></div>

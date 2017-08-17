@@ -1483,7 +1483,7 @@ module.bootstrap.install = def(
   var api = ephox.bolt.module.api;
   var builtins = ephox.bolt.module.config.builtins.browser;
   var install = ephox.bolt.module.bootstrap.install;
-  var reader = ephox.bolt.module.bootstrap.configloader.create("prod.js");
+  var reader = ephox.bolt.module.bootstrap.configloader.create("demo.js");
   var transport = ephox.bolt.loader.transporter.xhr.request;
   var script = ephox.bolt.loader.api.scripttag.load;
   install.install(reader, builtins, transport, script);

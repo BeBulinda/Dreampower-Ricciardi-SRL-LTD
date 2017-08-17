@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-6 text-center text-sm-left">
                 <p class="fontsize_12 grey">
-                    <i class="flaticon-clock"></i> Opening Times: Mon - Sat 8.00 - 18.00</p>
+                    <i class="flaticon-clock"></i> Opening Times: Mon - Fri 8.30 - 17.30, Sat 09.00 - 13.00</p>
             </div>
             <div class="col-sm-6 text-center text-sm-right">
                 <div class="grey fontsize_12">Follow us:
@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-sm-4 text-center text-sm-left">
                 <a href="./" class="logo">
-                    <img src="images/logo.png" alt="">
+                    <img src="images/svg/logo-white.png" width="80" alt="">
                 </a>
             </div>
 
@@ -35,8 +35,8 @@
                         </div>
                     </div>
                     <div class="media-body media-middle text-left">
-                        <p class="bold fontsize_26 grey bottommargin_5">0800 123 4567</p>
-                        <p>energy@support.com</p>
+                        <p class="bold fontsize_26 grey bottommargin_5">(+254) 787 733333</p>
+                        <p>info@dreampwr.com</p>
                     </div>
                 </div>
                 <a class="teaser location-teaser media inline-block hidden-sm hidden-xs" href="#">
@@ -46,8 +46,8 @@
                         </div>
                     </div>
                     <div class="media-body media-middle text-left">
-                        <p class="bold fontsize_26 bottommargin_5">1116 15th St,</p>
-                        <p class="fontcolor">Sacramento, California</p>
+                        <p class="bold fontsize_26 bottommargin_5">Karen Brooks</p>
+                        <p class="fontcolor">Nos. 702, Karen, Nairobi, KE</p>
                     </div>
                 </a>
             </div>

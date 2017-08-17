@@ -4,10 +4,10 @@
             <div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
                 <div class="widget widget_text topmargin_20">
                     <p class="bottommargin_30">
-                        <img src="images/logo.png" alt="">
+                        <img src="images/svg/logo-white.svg" width="80" alt="">
                     </p>
                     <p class="bottommargin_25">
-                        Sed cursus tortor neque, sit amet dignissim purus pretium vel. Nullam et sodales sem. Fusce elit urna, accumsan id mollis eu, egestas a nunc.
+                        Dreampower Ricciardi SRL LTD
                     </p>
                     <div class="page_social_icons inline-block darklinks">
                         <a class="social-icon soc-facebook" href="#" title="Facebook"></a>
@@ -25,7 +25,8 @@
                             <i class="fa fa-map-marker highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            1116 15th St, Sacramento, USA
+                            Karen Brooks <br/>
+                            Nos. 702, Karen, Nairobi, KE
                         </div>
                     </div>
                     <div class="media">
@@ -33,8 +34,8 @@
                             <i class="fa fa-phone highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            0800 123 4567
-                            <br> 0800 123 4566
+                            (+254) 787 733333 </br>
+                            (+254) 787 733334
                         </div>
                     </div>
                     <div class="media">
@@ -42,9 +43,9 @@
                             <i class="fa fa-envelope highlight fontsize_18"></i>
                         </div>
                         <div class="media-body greylinks">
-                            <a href="#">energy@support.com</a>
+                            <a href="#">info@dreampwr.com</a>
                             <br>
-                            <a href="#">energy@info.com</a>
+                            <a href="#">help@dreampwr.com</a>
                         </div>
                     </div>
                 </div>

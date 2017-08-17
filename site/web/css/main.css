@@ -775,8 +775,8 @@ li.media:after {
 }
 
 .section_padding_25 > [class*="container"] {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .section_padding_50 > [class*="container"] {
@@ -1772,7 +1772,7 @@ p > [class*="rt-icon"] + [class*="rt-icon"] {
 
 .bg_image,
 .bg_image:after {
-	background-image: url(../img/background_section.png);
+	background-image: url(img/background_section.png);
 }
 
 /* Hero text in sections */
@@ -1871,7 +1871,7 @@ h3 + .section_header,
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	background: url(img/preloader.gif) no-repeat 50% 50% transparent;
 	margin: -50px 0 0 -50px;
 }
 
@@ -1915,47 +1915,47 @@ body.boxed {
 }
 
 .pattern1 {
-	background-image: url(../img/pattern1.png);
+	background-image: url(img/pattern1.png);
 }
 
 .pattern2 {
-	background-image: url(../img/pattern2.png);
+	background-image: url(img/pattern2.png);
 }
 
 .pattern3 {
-	background-image: url(../img/pattern3.png);
+	background-image: url(img/pattern3.png);
 }
 
 .pattern4 {
-	background-image: url(../img/pattern4.png);
+	background-image: url(img/pattern4.png);
 }
 
 .pattern5 {
-	background-image: url(../img/pattern5.png);
+	background-image: url(img/pattern5.png);
 }
 
 .pattern6 {
-	background-image: url(../img/pattern6.png);
+	background-image: url(img/pattern6.png);
 }
 
 .pattern7 {
-	background-image: url(../img/pattern7.png);
+	background-image: url(img/pattern7.png);
 }
 
 .pattern8 {
-	background-image: url(../img/pattern8.png);
+	background-image: url(img/pattern8.png);
 }
 
 .pattern9 {
-	background-image: url(../img/pattern9.png);
+	background-image: url(img/pattern9.png);
 }
 
 .pattern10 {
-	background-image: url(../img/pattern10.png);
+	background-image: url(img/pattern10.png);
 }
 
 .pattern11 {
-	background-image: url(../img/pattern11.png);
+	background-image: url(img/pattern11.png);
 }
 
 .boxed .container {
@@ -3572,11 +3572,11 @@ a.logo.vertical_logo img {
 }
 
 .counters_section.ds {
-	background-image: url("../img/pattern1_dark.jpg");
+	background-image: url("img/pattern1_dark.jpg");
 }
 
 .counters_section.ls {
-	background-image: url("../img/pattern1_light.jpg");
+	background-image: url("img/pattern1_light.jpg");
 }
 
 .info-teaser {
@@ -3613,7 +3613,7 @@ a.logo.vertical_logo img {
 
 /* Services */
 .services {
-	background-image: url("../images/services.jpg");
+	background-image: url("../../images/parallax/solar-2.jpg");
 	background-position: right top;
 	background-size: cover;
 }
@@ -9769,7 +9769,7 @@ li.product {
 	top: 50%;
 	margin-left: -40px;
 	margin-top: -40px;
-	background: url("../img/owl.video.play.png") no-repeat;
+	background: url("img/owl.video.play.png") no-repeat;
 	cursor: pointer;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
@@ -10327,29 +10327,29 @@ html[xmlns] .slides {
 prettyPhoto
 */
 div.facebook .pp_expand {
-	background: url(../img/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
 	cursor: pointer;
 }
 
 div.facebook .pp_expand:hover {
-	background: url(../img/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
 	cursor: pointer;
 }
 
 div.facebook .pp_contract {
-	background: url(../img/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
 	cursor: pointer;
 }
 
 div.facebook .pp_contract:hover {
-	background: url(../img/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
 	cursor: pointer;
 }
 
 div.facebook .pp_close {
 	width: 22px;
 	height: 22px;
-	background: url(../img/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
 	cursor: pointer;
 	z-index: 3000;
 }
@@ -10359,11 +10359,11 @@ div.facebook .pp_description {
 }
 
 div.facebook .pp_loaderIcon {
-	background: url(../img/prettyPhoto/facebook/loader.gif) center center no-repeat;
+	background: url(img/prettyPhoto/facebook/loader.gif) center center no-repeat;
 }
 
 div.facebook .pp_arrow_previous {
-	background: url(../img/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
 	height: 22px;
 	margin-top: 0;
 	width: 22px;
@@ -10375,7 +10375,7 @@ div.facebook .pp_arrow_previous.disabled {
 }
 
 div.facebook .pp_arrow_next {
-	background: url(../img/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
 	height: 22px;
 	margin-top: 0;
 	width: 22px;
@@ -10397,24 +10397,24 @@ div.facebook .pp_nav p {
 }
 
 div.facebook .pp_nav .pp_play {
-	background: url(../img/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
 	height: 22px;
 	width: 22px;
 }
 
 div.facebook .pp_nav .pp_pause {
-	background: url(../img/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
+	background: url(img/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
 	height: 22px;
 	width: 22px;
 }
 
 div.facebook .pp_next:hover {
-	background: url(../img/prettyPhoto/facebook/btnNext.png) center right no-repeat;
+	background: url(img/prettyPhoto/facebook/btnNext.png) center right no-repeat;
 	cursor: pointer;
 }
 
 div.facebook .pp_previous:hover {
-	background: url(../img/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
+	background: url(img/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
 	cursor: pointer;
 }
 
@@ -10569,7 +10569,7 @@ a.pp_arrow_previous, a.pp_arrow_next {
 }
 
 .pp_gallery li.default a {
-	background: url(../img/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+	background: url(img/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
 	display: block;
 	height: 33px;
 	width: 50px;
@@ -10580,7 +10580,7 @@ div.facebook .pp_gallery .pp_arrow_previous, div.facebook .pp_gallery .pp_arrow_
 }
 
 a.pp_next {
-	background: url(../img/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	background: url(img/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
 	display: block;
 	float: right;
 	height: 100%;
@@ -10591,7 +10591,7 @@ a.pp_next {
 }
 
 a.pp_previous {
-	background: url(../img/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+	background: url(img/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
 	display: block;
 	float: left;
 	height: 100%;

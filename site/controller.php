@@ -8,7 +8,17 @@ if ( is_menu_set('logout') != "" )
 
 else if ( is_menu_set('?') != ""){
     $currentPage = WPATH . "modules/home.php";
-    set_title("Site Title | Home");
+    set_title("Dreampower Ricciardi SRL LTD  | Home");
+}
+
+else if ( is_menu_set('home') != ""){
+    $currentPage = WPATH . "modules/home.php";
+    set_title("Dreampower Ricciardi SRL LTD  | Home");
+}
+
+else if ( is_menu_set('services') != ""){
+    $currentPage = WPATH . "modules/services.php";
+    set_title("Dreampower Ricciardi SRL LTD  | Product & Services");
 }
 
 else if (!empty($_GET)) {
@@ -18,7 +28,7 @@ else if (!empty($_GET)) {
 else{
     $currentPage = WPATH . "modules/home.php";
     if ( App::isLoggedIn() ) {
-		set_title("Home | Site Title");                
+		set_title("Home | Dreampower Ricciardi SRL LTD ");                
 	}        
 }
 
