@@ -12,10 +12,19 @@
                             <a href="?">Profile</a>
                             <ul>
                                 <li>
+                                    <a href="?about">About Us</a>
+                                </li>
+                                <li>
                                     <a href="?">Our History</a>
                                 </li>
                                 <li>
+                                    <a href="?knowledge_base">Knowledge Base</a>
+                                </li>
+                                <li>
                                     <a href="?">Patents</a>
+                                </li>
+                                <li>
+                                    <a href="?">Consultancy</a>
                                 </li>
                                 <li>
                                     <a href="?">Copyrights</a>
@@ -24,7 +33,7 @@
                                     <a href="?">Solutions</a>
                                 </li>
                                 <li>
-                                    <a href="?">Partners</a>
+                                    <a href="?partners">Partners</a>
                                 </li>
                                 <li>
                                     <a href="?">FAQs</a>
@@ -35,22 +44,25 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="?">Projects</a>
+                            <a class="active" href="?projects">Projects</a>
                         </li>
                         <li>
-                            <a href="?">Solar</a>
+                            <a href="?">Energy</a>
                             <ul>
                                 <li>
-                                    <a href="?">Solar Power</a>
+                                    <a href="?">Solar</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Water Heating</a>
+                                    <a href="?">Generator</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Panels</a>
+                                    <a href="?">Pillon Insulators</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Efficiency</a>
+                                    <a href="?">Fuel</a>
+                                </li>
+                                <li>
+                                    <a href="?">Coal Energy</a>
                                 </li>
                             </ul>
                         </li>
@@ -60,48 +72,44 @@
                             <a href="?services">Products</a>
                             <ul>
                                 <li>
-                                    <a href="?">Solar Power</a>
+                                    <a href="?solar_power">Solar Power</a>
+                                    </li>
+                                <li>
+                                    <a href="?heat_pumps">Heat Pumps</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Water Heating</a>
+                                    <a href="?transformers">Tranformers</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Panels</a>
+                                    <a href="?wind_power">Wind Power</a>
                                 </li>
                                 <li>
-                                    <a href="?">Power Back-ups</a>
+                                    <a href="?generator_sets">Generator Sets</a>
                                 </li>
                                 <li>
-                                    <a href="?">LED Lighting</a>
+                                    <a href="?expansion_tanks">Expansion Tanks</a>
                                 </li>
                                 <li>
-                                    <a href="?">Solar Panel Types</a>
-                                    <ul>
-                                        <li>
-                                            <a href="?">Size 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="?">Size 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="?">Size 3</a>
-                                        </li>
-                                    </ul>
+                                    <a href="?solar_heating">Solar Heating</a>
+                                </li>
+                                <li>
+                                    <a href="?power_backups">Power Back-ups</a>
+                                </li>
+                                <li>
+                                    <a href="?led_lighting">LED Lighting</a>
+                                </li>
+                                <li>
+                                    <a href="?">System Maintenance</a>
                                 </li>
                             </ul>
                         </li>
                         <!-- eof events -->
                         <li>
-                            <a href="?">News</a>
-                            <ul>
-                                <li>
-                                    <a href="?">Events</a>
-                                </li>
-                            </ul>
+                            <a href="?">Events</a>
                         </li>
 
                         <li>
-                            <a href="?">Contact Us</a>
+                            <a href="?faqs">FAQs</a>
                         </li>
 
 
@@ -158,7 +166,7 @@
 
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="header-button">
+                        <a href="?contact" class="header-button">
                             <i class="flaticon-phone-call"></i>
                         </a>
                     </li>

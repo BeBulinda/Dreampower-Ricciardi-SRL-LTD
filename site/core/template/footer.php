@@ -1,4 +1,4 @@
-<footer class="page_footer theme_footer ds ms parallax section_padding_top_90 section_padding_bottom_50">
+<footer class="page_footer theme_footer ds ms parallax section_padding_top_15 section_padding_bottom_15">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
@@ -45,7 +45,7 @@
                         <div class="media-body greylinks">
                             <a href="#">info@dreampwr.com</a>
                             <br>
-                            <a href="#">help@dreampwr.com</a>
+                            <a href="#">helpdesk@dreampwr.com</a>
                         </div>
                     </div>
                 </div>
